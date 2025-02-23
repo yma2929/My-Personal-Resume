@@ -1,4 +1,6 @@
 .container{
+    width:100%;
+    max-width: 10000px;
     display:grid;
     grid-gap: 20px;
         grid-template-areas:
