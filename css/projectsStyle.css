@@ -142,7 +142,7 @@ footer{
         text-align: center;
     }
 
-    #contact {
+   /* #contact {
         text-align: left;
         background-color: #e2e5ea;
         color: black;
@@ -150,7 +150,18 @@ footer{
         grid-area: contact;
         text-align: left;
         
+    }*/
+    #contact {
+    
+        background-color: #e2e5ea;
+        color: black;
+        border-radius: 15px;
+        grid-area: contact;
+        text-align: left;
+        padding:25px;
+        
     }
+
     
     footer {
         background-color: #525a67;
