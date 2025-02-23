@@ -1,5 +1,3 @@
-project css before:
-
     .container {
         display: grid;
         grid-gap: 20px;
@@ -9,8 +7,8 @@ project css before:
             "db ddl se"
             "contact contact contact"
             "footer footer footer";
-        padding: 8px;
-        margin: 5px;
+        padding: 20px;
+        margin: 10px;
         
     }
     
@@ -28,7 +26,7 @@ project css before:
         text-align: center;
         grid-area: navbar;
         padding: 8px;
-        font-size: .95rem;
+        font-size: 15px;
         border-radius: 15px;
         
     }
@@ -38,15 +36,15 @@ project css before:
         grid-area: db;
         border-radius: 15px;
         text-align: center;
+        padding:15px;
     }
     #ddl {
         background-color:#9a9ead;
         color: black;
         border-radius: 15px;
-
-
         grid-area: ddl;
         text-align: center;
+        padding:15px;
     }
     #se {
         background-color: #9a9ead;
@@ -54,6 +52,7 @@ project css before:
         grid-area: se;
         border-radius: 15px;
         text-align: center;
+        padding:15px;
     }
 
     #contact {
@@ -73,19 +72,108 @@ project css before:
         grid-area: footer;
         padding-top:29px;
         border-radius: 15px;
-        text-align: center;
     }
     *{
         
         text-decoration: none;
-        font-family: "Vidaloka" serif;
+        font-family: "Vidaloka",serif;
         
     }
-    #contact,#se,#ddl,#db{
-        padding: 10px;
-        font-size: 1.rem;
+    
+    p{
+        text-align: left;
+        padding: 20px;
+        font-size: 16px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 33px;
 
     }
+    #ft{
+        text-align: center;
+    }
+
+
+    @media screen and (max-width:768px){
+        
+        .container {
+            display: grid;
+            grid-gap: 15px;
+            grid-template-areas:
+                "navbar"
+                "header"
+                "db"
+                "ddl"
+                "se"
+                "contact"
+                "footer";
+            padding: 20px;
+            margin: 19px;
+            
+        }
+        
+        
+        *{
+            
+            text-decoration: none;
+            font-family: "Vidaloka" serif;
+            
+        }
+        #contact,#se,#ddl,#db{
+            padding: 15px;
+    
+        }
+        h1{
+            font-size: 1.75rem;
+        }
+        h2{
+            font-size: 1.55rem;
+        }
+        p{
+            font-size: 1.45rem;
+        }
+        }
+        
+        @media screen and (max-width: 992px){
+            
+            .container {
+                display: grid;
+                grid-gap: 15px;
+                grid-template-areas:
+                    "navbar navbar"
+                    "header header"
+                    "db se"
+                    "ddl ddl"
+                    "contact contact "
+                    "footer footer";
+                padding: 25px;
+                margin: 19px;
+                
+            }
+            
+            
+            *{
+                
+                text-decoration: none;
+                font-family: "Vidaloka",serif;
+                
+            }
+            #contact,#se,#ddl,#db{
+                padding: 20px;
+        
+            }
+            h1{
+                font-size: 1.99rem;
+            }
+            h2{
+                font-size: 1.85rem;
+            }
+            p{
+                font-size: 1.75rem;
+            }
+            
+            }
 
 
 
