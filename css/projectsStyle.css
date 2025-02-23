@@ -186,3 +186,199 @@ footer{
     #ft{
         font-size: 1.40rem;
     }
+
+    @media screen and (max-width:992px){
+        
+        .container {
+            display: grid;
+            grid-gap: 15px;
+            grid-template-areas:
+                "navbar"
+                "header"
+                "db"
+                "ddl"
+                "se"
+                "contact"
+                "footer";
+            padding: 8px;
+            margin: 5px;
+            
+        }
+        
+        #header {
+            background-color: #525a67;
+            color: white;
+            text-align: center;
+            grid-area: header;
+            border-radius: 15px;
+        }
+        
+        #navbar {
+            background-color: #e9edef;
+            color: rgb(16, 3, 3);
+            text-align: center;
+            grid-area: navbar;
+            padding: 8px;
+            font-size: .75rem;
+            border-radius: 15px;
+            
+        }
+        #db {
+            background-color:#9a9ead;
+            color: black;
+            grid-area: db;
+            border-radius: 15px;
+            text-align: center;
+        }
+        #ddl {
+            background-color:#9a9ead;
+            color: black;
+            border-radius: 15px;
+            grid-area: ddl;
+            text-align: center;
+        }
+        #se {
+            background-color: #9a9ead;
+            color: black;
+            grid-area: se;
+            border-radius: 15px;
+            text-align: center;
+        }
+    
+        #contact {
+            text-align: left;
+            background-color: #e2e5ea;
+            color: black;
+            border-radius: 15px;
+            grid-area: contact;
+            text-align: left;
+            
+        }
+        
+        footer {
+            background-color: #525a67;
+            color: white;
+            text-align: center;
+            grid-area: footer;
+            padding-top:29px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        *{
+            
+            text-decoration: none;
+            font-family: "Vidaloka" serif;
+            
+        }
+        #contact,#se,#ddl,#db{
+            padding: 10px;
+    
+        }
+        h1{
+            font-size: 2.05rem;
+        }
+        h2{
+            font-size: 1.75rem;
+        }
+        p{
+            font-size: 1.0rem;
+        }
+        }
+        
+        @media screen and (max-width:768px){
+            
+            .container {
+                display: grid;
+                grid-gap: 15px;
+                grid-template-areas:
+                    "navbar"
+                    "header"
+                    "db se "
+                    "ddl"
+                    "contact"
+                    "footer";
+                padding: 8px;
+                margin: 5px;
+                
+            }
+            
+            #header {
+                background-color: #525a67;
+                color: white;
+                text-align: center;
+                grid-area: header;
+                border-radius: 15px;
+            }
+            
+            #navbar {
+                background-color: #e9edef;
+                color: rgb(16, 3, 3);
+                text-align: center;
+                grid-area: navbar;
+                padding: 8px;
+                font-size: .75rem;
+                border-radius: 15px;
+                
+            } 
+            #db {
+                background-color:#9a9ead;
+                color: black;
+                grid-area: db;
+                border-radius: 15px;
+                text-align: center;
+            }
+            #ddl {
+                background-color:#9a9ead;
+                color: black;
+                border-radius: 15px;
+                grid-area: ddl;
+                text-align: center;
+            }
+            #se {
+                background-color: #9a9ead;
+                color: black;
+                grid-area: se;
+                border-radius: 15px;
+                text-align: center;
+            }
+        
+            #contact {
+                text-align: left;
+                background-color: #e2e5ea;
+                color: black;
+                border-radius: 15px;
+                grid-area: contact;
+                text-align: left;
+                
+            }
+            
+            footer {
+                background-color: #525a67;
+                color: white;
+                text-align: center;
+                grid-area: footer;
+                padding-top:29px;
+                border-radius: 15px;
+                text-align: center;
+            }
+            *{
+                
+                text-decoration: none;
+                font-family: "Vidaloka" serif;
+                
+            }
+            #contact,#se,#ddl,#db{
+                padding: 10px;
+        
+            }
+            h1{
+                font-size: 2.55rem;
+            }
+            h2{
+                font-size: 2.0rem;
+            }
+            p{
+                font-size: 1.95rem;
+            }
+            
+            }
