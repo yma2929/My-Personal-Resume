@@ -10,7 +10,7 @@
                         "ct ct ct ct"
                         "ft ft ft ft";
     gap:10px;
-    padding:10px;
+    padding:5px;
     margin:8px;
 }
 
@@ -41,14 +41,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 40px;
+    padding: 10px;
 }
 #personal-info{
     grid-area: pi;
     grid-column: 3/5;
     background-color: #edf0f5;
     border-radius: 15px;
-    padding: 25px;
+    padding: 10px;
     /*margin-top: -90px;*/
 
 }

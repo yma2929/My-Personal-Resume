@@ -30,7 +30,7 @@ nav{
     text-align: center;
     grid-area: headerId;
     border-radius: 15px;
-    padding: 40px;
+    padding-top: 40px;
     
 
 }
@@ -39,7 +39,6 @@ nav{
     background-color: #e9edef;
     color: rgb(16, 3, 3);
     text-align: center;
-    grid-area: nav;
     border-radius: 15px;
     font-size: medium;
     
@@ -53,7 +52,7 @@ nav{
     grid-area: AI;
     text-align: left;
     margin-top: 2px;
-    padding:30px;
+    padding:20px;
 }
 #html {
     background-color:#edf0f5;
@@ -62,7 +61,7 @@ nav{
     grid-area: html;
     text-align: left;
     margin-top: 2px;
-    padding:30px;
+    padding:20px;
 }
 #ex {
     background-color: #edf0f5;
@@ -71,7 +70,7 @@ nav{
     border-radius: 15px;
     text-align: left;
     margin-top: 2px;
-    padding:30px;
+    padding:20px;
 }
 
 #contact {
@@ -81,13 +80,11 @@ nav{
     border-radius: 15px;
     grid-area: contact;
     text-align: left;
-    padding:25px;
+    padding-left:20px;
+    padding-bottom: 5px;
     
 }
-.container img{
-    /*display: inline-block;
-    max-width: 100%;
-    text-align: center;*/
+.certPic {
 
     margin: auto;
     display: block;
@@ -123,87 +120,19 @@ h2{
             "contact"
             "footer";
         grid-template-columns: 1fr;
-        grid-gap: 6px;
+        grid-gap: 5px;
     }
 
-    nav{
-        display:flex;
-        justify-content:center;
-        align-items: center;
-        grid-area: nav;
-        padding: 10px;
-        
     
-    }
-    
-    #navbar {
-        background-color: #e9edef;
-        color: rgb(16, 3, 3);
-        text-align: center;
-        grid-area: nav;
-        font-size: .89rem;
-        
-        
-    }
-    
-    #AI {
-        background-color:#edf0f5;
-        color: black;
-        grid-area: AI;
-        text-align: left;
-        margin-top: 2px;
-        padding:15px;
-    }
-    #html {
-        background-color:#edf0f5;
-        color: black;
-        grid-area: html;
-        text-align: left;
-        margin-top: 2px;
-        padding:15px;
-    }
-    #ex {
-        background-color: #edf0f5;
-        color: black;
-        grid-area: ex;
-        border-radius: 15px;
-        text-align: left;
-        margin-top: 2px;
-        padding:15px;
-    }
-    
-    #contact {
-        
-        background-color: #e2e5ea;
-        color: black;
-        border-radius: 15px;
-        grid-area: contact;
-        text-align: left;
-        padding:10px;
-        
-    }
-    
-    footer {
-        background-color: #98a2b1;
-        color: white;
-        text-align: center;
-        grid-area: footer;
-        padding-top:5px;
-        font-size: 0.76rem;
-        border-radius: 5px;
-    }
-*{
-    
-    border-radius: 15px;
-}
+
     h1{
-        font-size: 1.75rem;
+        font-size: 1.55rem;
     }
     h2{
-        font-size: 1.35rem;
+        font-size: 1.25rem;
     }
     p{
-        font-size: 1.95rem;
+        font-size: 1.05rem;
     }
 
 }
@@ -211,102 +140,26 @@ h2{
 @media screen and (max-width: 992px) {
     .container {
         grid-template-areas:
-            "nav"
-            "headerId"
-            "AI"
-            "html"
-            "ex"
-            "contact"
-            "footer";
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-    }
-     
-    
-    nav{
-        display:flex;
-        justify-content:center;
-        align-items: center;
-        grid-area: nav;
-        padding: 15px;
-        
-    
-    }
-    #navbar {
-        background-color: #e9edef;
-        color: rgb(16, 3, 3);
-        text-align: center;
-        grid-area: nav;
-        font-size: .85rem;
-        
-        
+            "nav nav"
+            "headerId headerId"
+            "AI html"
+            "ex contact"
+            "footer footer";
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 9px;
     }
     
-    #AI {
-        background-color:#edf0f5;
-        color: black;
-        grid-area: AI;
-        text-align: left;
-        margin-top: 2px;
-        padding:25px;
-    }
-    #html {
-        background-color:#edf0f5;
-        color: black;
-        grid-area: html;
-        text-align: left;
-        margin-top: 2px;
-        padding: 25px;;
-    }
-    #ex {
-        background-color: #edf0f5;
-        color: black;
-        grid-area: ex;
-        border-radius: 15px;
-        text-align: left;
-        margin-top: 2px;
-        padding:25px;
-    }
+
     
-    #contact {
-        
-        background-color: #e2e5ea;
-        color: black;
-        border-radius: 15px;
-        grid-area: contact;
-        text-align: left;
-        padding:20px;
-        
-    }
-    
-    footer {
-        background-color: #98a2b1;
-        color: white;
-        text-align: center;
-        grid-area: footer;
-        padding-top:19px;
-        border-radius: 10px;
-    }
-    .container img{
-    
-        margin: auto;
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-    
-*{
-    
-    border-radius: 15px;
-}
+
     h1{
         font-size: 1.95rem;
     }
     h2{
-        font-size: 1.75rem;
+        font-size: 1.55rem;
     }
     p{
-        font-size: 1.55rem;
+        font-size: 1.45rem;
     }
 
     

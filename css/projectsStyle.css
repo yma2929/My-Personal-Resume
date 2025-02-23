@@ -108,8 +108,8 @@
                 "se"
                 "contact"
                 "footer";
-            padding: 15px;
-            margin: 9px;
+            padding: 10px;
+            margin: 5px;
             
         }
         
@@ -121,17 +121,17 @@
             
         }
         #contact,#se,#ddl,#db{
-            padding: 15px;
+            padding: 10px;
     
         }
         h1{
             font-size: 1.75rem;
         }
         h2{
-            font-size: 1.55rem;
+            font-size: 1.25rem;
         }
         p{
-            font-size: 1.45rem;
+            font-size: 1.15rem;
         }
         }
         
@@ -147,8 +147,8 @@
                     "ddl ddl"
                     "contact contact "
                     "footer footer";
-                padding: 20px;
-                margin: 10px;
+                padding: 15px;
+                margin: 8px;
                 
             }
             
@@ -160,17 +160,17 @@
                 
             }
             #contact,#se,#ddl,#db{
-                padding: 20px;
+                padding: 15px;
         
             }
             h1{
-                font-size: 1.99rem;
+                font-size: 1.78rem;
             }
             h2{
-                font-size: 1.85rem;
+                font-size: 1.55rem;
             }
             p{
-                font-size: 1.75rem;
+                font-size: 1.25rem;
             }
             
             }
