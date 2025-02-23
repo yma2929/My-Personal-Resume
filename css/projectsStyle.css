@@ -162,7 +162,7 @@ footer{
         text-align: center;
     }
     *{
-        
+        font-size: 14px;
         text-decoration: none;
         font-family: "Vidaloka" serif;
         
@@ -177,10 +177,11 @@ footer{
         padding:10px;
     }
     h1{
-        font-size: 2.05rem;
+        font-size: 1.75rem;
     }
     h2 , #ft{
         text-align: center;
+        font-size: 1.25rem;
 
     }
     #ft{
@@ -275,13 +276,13 @@ footer{
     
         }
         h1{
-            font-size: 1.85rem;
+            font-size: 1.5rem;
         }
         h2{
-            font-size: 1.45rem;
+            font-size: 1.24rem;
         }
         p{
-            font-size: 1.0rem;
+            font-size: .9rem;
         }
         }
         
