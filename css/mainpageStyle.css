@@ -17,8 +17,10 @@
 
 .navbar{
     grid-area: nav;
+    border-radius: 15px;
     
 }
+
 
 .header{
     grid-area: header;
