@@ -106,7 +106,7 @@ p{
     margin: 10px;
 }
 #sctitle{
-    color:#556069;
+    color:#0a263d;
     font-style: normal;
     font-family:"Vidaloka";
     font-size: 20px;
@@ -156,6 +156,14 @@ img,.ft{
     height: 50px;
     
 }
+header a{
+    padding-top:20px;
+    color: #dedee6;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
 @media screen and (max-width:768px){
 
 .container{
