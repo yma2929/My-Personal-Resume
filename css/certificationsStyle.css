@@ -164,27 +164,3 @@ h2{
 
     
 }
-@media screen and (max-width:375px){
-    .container{
-       grid-template-areas: "nav"
-                            "headerId"
-                            "AI"
-                            "html"
-                            "ex"
-                            "contact"
-                            "footer";
-    padding: 15px;
-    margin: 10px;
-    
-    }
-    h1{
-        font-size: 1.90rem;
-    }
-    h2{
-        font-size: 1.65rem;
-    }
-    p{
-        font-size: 1.45rem;
-    }
-
-    }
