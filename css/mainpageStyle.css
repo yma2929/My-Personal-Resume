@@ -220,10 +220,13 @@ p{
     
     
 }
+#personal-education {
+    padding: 5px;
+}
 .header , #personal-info{
     margin-top: -100px;
 }
-#personal-education, #Certification, #projects{
+#Certification, #projects{
     
     padding: 15px;
 }
