@@ -188,7 +188,7 @@ p{
                         "pr pr"
                         "ct ct"
                         "ft ft";
-    gap:30px;
+    gap:400px;
     padding:10px;
 }
 
@@ -199,7 +199,9 @@ p{
     
     
 }
-
+.header , #personal-info{
+    margin-top: -100px;
+}
 #personal-education, #Certification, #projects{
     
     padding: 15px;
@@ -253,9 +255,7 @@ p{
         
         padding:15px;
     }
-    .header , #personal-info{
-        margin-top: -100px;
-    }
+    
 
     h1{
         font-size:1.90rem;
