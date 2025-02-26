@@ -49,14 +49,14 @@
     grid-area:ce;
     background-color: #edf0f5;
     border-radius: 15px;
-    padding:40px;
+    padding:20px;
 }
 
 #projects{
     grid-area:pr;
     background-color: #edf0f5;
     border-radius: 15px;
-    padding:40px;
+    padding:20px;
 }
 #contact{
     grid-area: ct;
@@ -96,7 +96,7 @@ ul {
     font-style: normal;
     font-family:'Times New Roman', Times, serif;
     text-align: left;
-    padding: 30px;
+    padding: 20px;
     margin: 10px;
 }
 p{
@@ -191,14 +191,14 @@ p{
 
 
 .header, #personal-info, #contact{
-    padding: 15px;
+    padding: 10px;
     
     
 }
 
 #personal-education, #Certification, #projects{
     
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -278,4 +278,4 @@ p{
     
     }
     
-    } 
+    }
