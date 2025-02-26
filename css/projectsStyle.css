@@ -177,7 +177,7 @@
 
             @media screen and (max-width:375px){
                 .container{
-                   grid-template-areas: "navbar"
+                grid-template-areas: "navbar"
                                         "header"
                                         "db"
                                         "se"
@@ -186,6 +186,8 @@
                                         "footer";
                 padding: 15px;
                 margin: 10px;
+            }
+
                 h1{
                     font-size: 1.90rem;
                 }
@@ -197,7 +199,8 @@
                 }
 
                 }
-            }
+            
+            
 
 
 

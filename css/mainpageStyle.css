@@ -289,7 +289,8 @@ p{
                                 "ct"
                                 "ft";
         padding: 15px;
-        margin: 10px;
+        margin: 10px;}
+        
         h1{
             font-size: 1.90rem;
         }
@@ -301,4 +302,4 @@ p{
         }
 
         }
-    }
+    
