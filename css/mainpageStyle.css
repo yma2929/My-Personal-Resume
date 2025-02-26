@@ -123,8 +123,8 @@ p{
 
 .coursedetalis{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "fs fd"
+                            "sf sd";
         align-items: start;
         gap:20px;
         
@@ -139,6 +139,18 @@ p{
     margin-bottom: 3px;
     
     
+}
+#fs{
+    grid-area: fs;
+}
+#fd{
+    grid-area: fd;
+}
+#sf{
+    grid-area: sf;
+}
+#sd{
+    grid-area: sd;
 }
 
 li{
@@ -192,7 +204,16 @@ p{
     padding:10px;
 }
 
-
+.coursedetalis{
+    display: grid;
+    grid-template-areas: "fs"
+                        "fd"
+                        "sf"
+                        "sd";
+    align-items: start;
+    gap:20px;
+    
+}
 
 .header, #personal-info, #contact{
     padding: 10px;
