@@ -98,7 +98,7 @@
     @media screen and (max-width:768px){
         
         .container {
-            grid-gap: 15px;
+            grid-gap: 30px;
             grid-template-areas:
                 "navbar"
                 "header"
@@ -108,7 +108,7 @@
                 "contact"
                 "footer";
             padding: 10px;
-            margin: 5px;
+            margin: 15px;
             
         }
         
@@ -132,7 +132,7 @@
         @media screen and (max-width: 992px){
             
             .container {
-                grid-gap: 15px;
+                grid-gap: 25px;
                 grid-template-areas:
                     "navbar navbar"
                     "header header"
@@ -141,7 +141,7 @@
                     "contact contact "
                     "footer footer";
                 padding: 15px;
-                margin: 8px;
+                margin: 10px;
                 
             }
             

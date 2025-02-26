@@ -188,9 +188,8 @@ p{
                         "pr pr"
                         "ct ct"
                         "ft ft";
-    gap:10px;
+    gap:30px;
     padding:10px;
-    margin:8px;
 }
 
 
@@ -244,9 +243,8 @@ p{
                             "ce pr pr"
                             "ct ct ct"
                             "ft ft ft";
-        gap:10px;
+        gap:25px;
         padding:10px;
-        margin:8px;
     }
     
     

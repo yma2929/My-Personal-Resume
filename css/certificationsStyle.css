@@ -32,6 +32,7 @@ nav{
     border-radius: 15px;
     padding-top: 40px;
     
+    
 
 }
 
@@ -129,7 +130,7 @@ h2{
             "contact"
             "footer";
         grid-template-columns: 1fr;
-        grid-gap: 5px;
+        grid-gap: 30px;
     }
 
     
@@ -155,7 +156,7 @@ h2{
             "ex contact"
             "footer footer";
         grid-template-columns: 1fr 1fr;
-        grid-gap: 9px;
+        grid-gap: 25px;
     }
     
 
