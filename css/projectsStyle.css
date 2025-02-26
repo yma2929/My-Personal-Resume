@@ -134,12 +134,13 @@
             .container {
                 grid-gap: 25px;
                 grid-template-areas:
-                    "navbar navbar"
-                    "header header"
-                    "db se"
-                    "ddl ddl"
-                    "contact contact "
-                    "footer footer";
+                    "navbar "
+                    "header "
+                    "db "
+                    "se"
+                    "ddl "
+                    " contact "
+                    " footer";
                 padding: 15px;
                 margin: 10px;
                 
