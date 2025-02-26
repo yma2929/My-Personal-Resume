@@ -30,8 +30,8 @@ nav{
     text-align: center;
     grid-area: headerId;
     border-radius: 15px;
-    padding-top: 40px;
-    
+    padding-top: 25px;
+    margin:10px ;
     
 
 }
@@ -152,8 +152,10 @@ h2{
         grid-template-areas:
             "nav nav"
             "headerId headerId"
-            "AI html"
-            "ex contact"
+            "AI AI"
+            "html html"
+            "ex ex"
+            "contact contact"
             "footer footer";
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;
