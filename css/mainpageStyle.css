@@ -253,6 +253,9 @@ p{
         
         padding:15px;
     }
+    .header , #personal-info{
+        margin-top: -100px;
+    }
 
     h1{
         font-size:1.90rem;
