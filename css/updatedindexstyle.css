@@ -1,8 +1,6 @@
 
 .container{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr ;
-    grid-template-rows: .5fr .25fr 2fr .75fr .15fr .05fr  ;
     grid-template-areas: "nav nav nav nav"
                         "header header pi pi"
                         "pe pe pe pe"
@@ -10,7 +8,6 @@
                         "ct ct ct ct"
                         "ft ft ft ft";
     gap:20px;
-    padding:5px;
 }
 
 
@@ -31,23 +28,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
-    /*margin-top: -150px;*/
 }
+
 #personal-info{
     grid-area: pi;
     background-color: #edf0f5;
     border-radius: 15px;
     padding: 10px;
-   /* margin-top: -150px;*/
-
 }
+
 #personal-education{
     grid-area: pe;
     background-color: #e2e5ea;
     border-radius: 15px;
-    padding: 40px;
+    padding: 20px;
 }
+
 #Certification{
 
     grid-area:ce;
@@ -71,7 +67,7 @@
     grid-area: ft;
 }
 
-header ,footer , #foot{
+.header ,footer , #foot{
     background-color: #515967;
     color: #ffffffe4;
     text-align: center;
@@ -94,7 +90,6 @@ h2{
     text-align:left;
     padding: 20px;
     margin: 10px;
-    font-size: 30px;
 }
 ul {
     color:#4e541F;
@@ -138,8 +133,6 @@ p{
     display:block;
     margin-top: 10px;
     margin-bottom: 3px;
-    
-    
 }
 #fs{
     grid-area: fs;
@@ -189,8 +182,6 @@ header a{
 
 .container{
     display:grid;
-    grid-template-columns:1fr;
-    grid-template-rows: .45fr .25fr 1fr 2fr .5fr .5fr .45fr .05fr  ;
     grid-template-areas: "nav  "
                         "header "
                         "pi"
@@ -214,16 +205,12 @@ header a{
     
 }
 
-.header, #personal-info, #contact{
+.header,  #contact{
     padding: 10px;
     
     
 }
-#personal-education {
-    padding: 5px;
-}
-
-#Certification, #projects{
+#personal-info,#personal-education , #Certification, #projects{
     
     padding: 15px;
 }
@@ -258,8 +245,6 @@ p{
 
     .container{
         display:grid;
-        grid-template-columns:1fr 1fr 1fr ;
-        grid-template-rows: .5fr .25fr 2fr .75fr .15fr .05fr  ;
         grid-template-areas: "nav nav nav "
                             "header pi  pi"
                             "pe pe pe"
@@ -272,9 +257,9 @@ p{
     
     
     
-    .header,#personal-info,#personal-education,#Certification,#projects,#contact,#page-footer{
+    .header,#personal-info,#personal-education,#Certification,#projects,#contact{
         
-        padding:15px;
+        padding:19px;
     }
     
 
