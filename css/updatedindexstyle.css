@@ -195,7 +195,7 @@ header a{
                         "pr"
                         "ct"
                         "ft";
-    gap:40px;
+    gap:50px;
     padding:15px;
     margin: 20px;
 }
@@ -212,6 +212,7 @@ header a{
 }
 .navbar{
     margin-top: 10px;
+    margin-bottom: 40px;
 }
 .header,  #contact{
     padding: 10px;
@@ -219,7 +220,7 @@ header a{
     
 }
 .header,#personal-info{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 #personal-info,#personal-education , #Certification, #projects{
     
