@@ -118,35 +118,6 @@ h1{
 h2{
     font-size: 30px;
 }
-
-@media screen and (max-width: 768px) {
-    .container {
-        grid-template-areas:
-            "nav"
-            "headerId"
-            "AI"
-            "html"
-            "ex"
-            "contact"
-            "footer";
-        grid-template-columns: 1fr;
-        grid-gap: 30px;
-    }
-
-    
-
-    h1{
-        font-size: 1.55rem;
-    }
-    h2{
-        font-size: 1.25rem;
-    }
-    p{
-        font-size: 1.05rem;
-    }
-
-}
-
 @media screen and (max-width: 992px) {
     .container {
         grid-template-areas:
@@ -176,3 +147,32 @@ h2{
 
     
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-areas:
+            "nav"
+            "headerId"
+            "AI"
+            "html"
+            "ex"
+            "contact"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    
+
+    h1{
+        font-size: 1.55rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: 1.05rem;
+    }
+
+}
+
