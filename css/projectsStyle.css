@@ -13,25 +13,26 @@
     }
     
     #header {
-        background-color: #525a67;
+        background-color:  #858998;
         color: white;
         text-align: center;
         grid-area: header;
         border-radius: 15px;
+        padding: 30px;
     }
     
-    #navbar {
+    .navbar {
         background-color: #e9edef;
         color: rgb(16, 3, 3);
         text-align: center;
         grid-area: navbar;
-        padding: 8px;
+        padding: 20px;
         font-size: 15px;
         border-radius: 15px;
         
     }
     #db {
-        background-color:#9a9ead;
+        background-color:#edf0f5;
         color: black;
         grid-area: db;
         border-radius: 15px;
@@ -39,7 +40,7 @@
         padding:15px;
     }
     #ddl {
-        background-color:#9a9ead;
+        background-color: #edf0f5;
         color: black;
         border-radius: 15px;
         grid-area: ddl;
@@ -47,7 +48,7 @@
         padding:15px;
     }
     #se {
-        background-color: #9a9ead;
+        background-color: #edf0f5;
         color: black;
         grid-area: se;
         border-radius: 15px;

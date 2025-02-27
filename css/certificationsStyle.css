@@ -9,8 +9,6 @@
             "footer footer footer";
         padding: 10px;
         margin: 15px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: .05fr .25fr 1fr .5fr .05fr;
         
         
 }
@@ -20,6 +18,9 @@ nav{
     align-items: center;
     grid-area: nav;
     padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(16, 3, 3);
     
 
 }
@@ -30,21 +31,12 @@ nav{
     text-align: center;
     grid-area: headerId;
     border-radius: 15px;
-    padding-top: 25px;
+    padding: 30px;
     margin:10px ;
     
 
 }
 
-#navbar {
-    background-color: #e9edef;
-    color: rgb(16, 3, 3);
-    text-align: center;
-    border-radius: 15px;
-    font-size: medium;
-    
-    
-}
 
 #AI {
     background-color:#edf0f5;
@@ -53,7 +45,9 @@ nav{
     grid-area: AI;
     text-align: left;
     margin-top: 2px;
-    padding:20px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #html {
     background-color:#edf0f5;
@@ -62,7 +56,9 @@ nav{
     grid-area: html;
     text-align: left;
     margin-top: 2px;
-    padding:20px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #ex {
     background-color: #edf0f5;
@@ -71,7 +67,9 @@ nav{
     border-radius: 15px;
     text-align: left;
     margin-top: 2px;
-    padding:20px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #contact {
@@ -83,6 +81,7 @@ nav{
     text-align: left;
     padding-left:20px;
     padding-bottom: 5px;
+    padding-top: 20px;
     
 }
 .certPic {
