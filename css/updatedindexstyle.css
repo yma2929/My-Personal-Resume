@@ -7,16 +7,18 @@
                         "ce ce pr pr"
                         "ct ct ct ct"
                         "ft ft ft ft";
-    gap:20px;
+    gap:50px;
 }
 
 
 .navbar{
     grid-area: nav;
     border-radius: 15px;
-    padding: 5px 10px;
+    padding: 15px 10px;
     height: 50px;
-    margin-top: 30px;
+    margin-top: 20px;
+
+
     
 }
 
@@ -187,15 +189,15 @@ header a{
 
 .container{
     display:grid;
-    grid-template-areas: "nav  "
-                        "header "
+    grid-template-areas: "nav"
+                        "header"
                         "pi"
                         "pe"
                         "ce"
                         "pr"
                         "ct"
                         "ft";
-    gap:50px;
+    gap:90px;
     padding:15px;
     margin: 20px;
 }
@@ -212,18 +214,19 @@ header a{
 }
 .navbar{
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
     display: block;
+    min-height: 90px;
 }
 #contact{
     padding: 10px;
     
     
 }
-.header,#personal-info{
-    margin-top: 60px;
-    padding-top: 60px;
+.header, #personal-info{
+    padding-top: 100px;
 }
+
 #personal-education , #Certification, #projects{
     
     padding: 15px;
