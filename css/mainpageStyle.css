@@ -190,8 +190,6 @@ p{
 
 .container{
     display:grid;
-    grid-template-columns:1fr   ;
-    grid-template-rows: .5fr .25fr 2fr .75fr .15fr .05fr  ;
     grid-template-areas: "nav  "
                         "header "
                         "pi"
@@ -201,7 +199,7 @@ p{
                         "ct"
                         "ft";
     gap:40px;
-    padding:10px;
+    padding:15px;
 }
 
 .coursedetalis{
@@ -223,9 +221,7 @@ p{
 #personal-education {
     padding: 5px;
 }
-.header , #personal-info{
-    margin-top: -100px;
-}
+
 #Certification, #projects{
     
     padding: 15px;
