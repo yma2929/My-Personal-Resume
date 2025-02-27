@@ -195,8 +195,9 @@ header a{
                         "pr"
                         "ct"
                         "ft";
-    gap:25px;
+    gap:40px;
     padding:15px;
+    margin: 20px;
 }
 
 .coursedetalis{
@@ -209,11 +210,16 @@ header a{
     gap:20px;
     
 }
-
+.navbar{
+    margin-top: 10px;
+}
 .header,  #contact{
     padding: 10px;
     
     
+}
+.header,#personal-info{
+    margin-top: 40px;
 }
 #personal-info,#personal-education , #Certification, #projects{
     
