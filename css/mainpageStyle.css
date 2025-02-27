@@ -190,16 +190,16 @@ p{
 
 .container{
     display:grid;
-    grid-template-columns:1fr 1fr  ;
+    grid-template-columns:1fr   ;
     grid-template-rows: .5fr .25fr 2fr .75fr .15fr .05fr  ;
-    grid-template-areas: "nav nav "
-                        "header header"
-                        "pi pi"
-                        "pe pe"
-                        "ce ce"
-                        "pr pr"
-                        "ct ct"
-                        "ft ft";
+    grid-template-areas: "nav  "
+                        "header "
+                        "pi"
+                        "pe"
+                        "ce"
+                        "pr"
+                        "ct"
+                        "ft";
     gap:40px;
     padding:10px;
 }
