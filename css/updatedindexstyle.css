@@ -8,6 +8,7 @@
                         "ct ct ct ct"
                         "ft ft ft ft";
     gap:50px;
+    padding: 20px;
 }
 
 
@@ -15,12 +16,9 @@
     grid-area: nav;
     border-radius: 15px;
     padding: 15px 10px;
-    margin-top: 20px;
-    
+    margin-top: 30px;
     min-height: 90px;
 
-
-    
 }
 
 
@@ -31,13 +29,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 40px;
 }
 
 #personal-info{
     grid-area: pi;
     background-color: #edf0f5;
     border-radius: 15px;
-    padding: 10px;
+    padding: 40px;
 }
 
 #personal-education{
@@ -68,6 +67,7 @@
 }
 #page-footer{
     grid-area: ft;
+    padding-top: 20px;
 }
 
 .header ,footer , #foot{
