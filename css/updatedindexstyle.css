@@ -221,10 +221,24 @@ header a{
 #contact{
     padding: 10px;
     
-    
 }
+#personal-info{
+    display: block;
+}
+.header{
+    display: block;
+}
+
 .header, #personal-info{
     padding-top: 100px;
+}
+
+#Certification{
+    display: block;
+}
+
+#projects{
+    display: block;
 }
 
 #personal-education , #Certification, #projects{
